@@ -1,0 +1,26 @@
+Requirements:
+
+    - Have root level access to the local machine; Permission to enable docker daemon
+    - Install packages
+        a. docker >= v18
+        b. gnu-make >= v3.81
+    - Specify a 'local_dir' parameter to define which local directory path to browse as 'root'
+    - Use 'cd' to navigate to the root of this repository where the "Makefile" is located
+
+Usage:
+
+    * Build and run API locally
+        - execute "make run-local"
+    
+    * Build, run, and test locally
+        - execute "make run-local-test"
+
+    * Request all items in a directory
+        - execute "curl http://localhost/<:directory-path>/"
+    
+    * Request file statistics
+        - execute "curl http://localhost/<:file-path>"
+
+
+
+
